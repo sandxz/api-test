@@ -4,8 +4,8 @@ const fs = require('fs')
 
 const path = require('path');
 
-//jangan lupa bikin service account and save the json file and save as serviceaccountkey.json
-const pathKey = path.resolve('./serviceaccountkey.json')
+//jangan lupa bikin service account and save the json file and save as serviceacc.json
+const pathKey = path.resolve('./serviceacc.json')
 
 
 const gcs = new Storage({
